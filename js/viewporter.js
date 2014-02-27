@@ -429,18 +429,24 @@ $(function (w) {
         },
         {
           "id": 4,
+          "name": "Tablet Portrait",
+          "width": "768px",
+          "height": "Auto"
+        },
+        {
+          "id": 5,
           "name": "Tablet Landscape",
           "width": "1008px",
           "height": "Auto"
         },
         {
-          "id": 5,
+          "id": 6,
           "name": "Desktop",
           "width": "1024px",
           "height": "Auto"
         },
         {
-          "id": 6,
+          "id": 7,
           "name": "Wide Desktop",
           "width": "1280px",
           "height": "Auto"
