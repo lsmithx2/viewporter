@@ -4,7 +4,7 @@
 
 ## Demo
 
-[Try viewporter out here](http://bbc-sport.github.io/viewporter).
+[Try viewporter out here](http://bbc.github.io/viewporter).
 
 ## Credits
 
