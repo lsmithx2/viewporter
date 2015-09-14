@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="stylesheets/normalize.css">
     <link rel="stylesheet" href="stylesheets/viewporter.css">
+
     <script>
     /*
       (function () {
@@ -16,7 +17,7 @@
       } ());
     */
     </script>
-    
+
     <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script src="js/mousetrap.min.js"></script>
     <script src="js/utils.js"></script>
@@ -29,12 +30,12 @@
       /* var url = viewporter.params.url || 'default.html'; */
       document.write('<div id="viewport-container"><iframe id="viewport" src="http://www.bbc.co.uk/sport/winter-olympics/2014"></iframe></div>');
     </script>
-    
+
     <section id="main-menu" class="menu main-menu mode-url">
       <a id="presets-btn" class="toggle-btn presets-btn h-bdr" href="javascript:void(0)"><span class="icon"></span> <span class="label">Presets</span></a>
       <a id="share-btn" class="toggle-btn share-btn h-bdr" href="javascript:void(0)"><span class="icon"></span> <span class="label">Share</span></a>
       <div class="mode-menu">
-        
+
         <section id="size-menu" class="menu size-menu h-bdr">
           <form class="size-form" method="get" action="index.html">
             <label for="size-width-input" class="size-lbl size-width-lbl">W</label>
@@ -44,7 +45,7 @@
             <input type="submit" name="resize" value="Resize" id="resize-btn" class="menu-item menu-btn resize-btn" />
           </form>
         </section>
-        
+
         <section id="url-menu" class="menu url-menu h-bdr">
           <form class="url-form" method="get" action="index.html">
             <label class="visually-hidden" for="url">URL</label>
@@ -52,12 +53,12 @@
             <input type="submit" value="Set" id="url-btn" class="menu-item menu-btn url-btn" />
           </form>
         </section>
-        
+
       </div>
       <a id="help-btn" class="toggle-btn help-btn h-bdr" href="javascript:void(0)"><span class="label">Help</span></a>
       <a id="mode-btn" class="toggle-btn mode-btn h-bdr mode-size" href="javascript:void(0)"><span class="icon"></span> <span class="label">URL</span></a>
     </section>
-    
+
     <!-- Presets panel -->
     <section id="presets-panel" class="panel presets-panel edit-disabled" style="display: none">
       <table id="presets-table" class="table presets-table">
@@ -91,7 +92,7 @@
         <a id="presets-edit-btn" class="toggle-btn edit-btn h-bdr-r" href="javascript:void(0)"><span class="icon"></span> <span class="label">Edit</span></a>
       </footer>
     </section>
-    
+
     <section id="flash-info" class="flash-info"></section>
   </body>
 </html>
